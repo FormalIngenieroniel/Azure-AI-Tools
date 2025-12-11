@@ -58,9 +58,3 @@ The repository is organized by module, containing the necessary code files (Pyth
 ## 📚 Companion Learning
 
 These exercises are structured to complement the conceptual training provided by **Microsoft Learn**. For a deeper understanding of the underlying concepts (such as Cognitive Services, Custom Vision architecture, and responsible AI principles), it is highly recommended to follow the associated Microsoft Learn modules.
-
----
-
-## 🤝 Contribution
-
-This repository is maintained as a learning resource. While direct pull requests for exercise content may be limited, we welcome feedback and suggestions for improvement.
