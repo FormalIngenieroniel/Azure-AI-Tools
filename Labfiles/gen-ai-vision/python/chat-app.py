@@ -4,9 +4,6 @@ import base64
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Add references
-
-
 def main(): 
 
     # Clear the console
@@ -18,16 +15,7 @@ def main():
         load_dotenv()
         project_endpoint = os.getenv("PROJECT_CONNECTION")
         model_deployment =  os.getenv("MODEL_DEPLOYMENT")
-
-
-        # Initialize the project client
-
         
-
-        # Get a chat client
-        
-
-
 
         # Initialize prompts
         system_message = "You are an AI assistant in a grocery store that sells fruit. You provide detailed answers to questions about produce."
@@ -43,9 +31,6 @@ def main():
             else:
                 print("Getting a response ...\n")
 
-
-                # Get a response to image input
-                    
 
 
     except Exception as ex:
